@@ -14,7 +14,6 @@ window.addEventListener('orientationchange', () => {
 // padding no-ios
 document.addEventListener('DOMContentLoaded', function () {
   let pink = document.querySelector('.pink');
-  console.log(pink);
   if (!/iPad|iPhone|iPod|Mac/.test(navigator.userAgent)) {
     console.log('if');
     pink.classList.add('noios-padding');
